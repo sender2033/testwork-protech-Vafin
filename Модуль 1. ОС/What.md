@@ -8,3 +8,4 @@
 Видео: 
 - Первая часть видео [https://youtu.be/25ws_pBRChw?si=uL3hRwmK6gWGzTML](https://youtu.be/25ws_pBRChw?si=uL3hRwmK6gWGzTML)
 - Вторая часть видео [https://youtu.be/hjreGdMsFBE?si=fkyuVydh3sgsJqjC](https://youtu.be/hjreGdMsFBE?si=fkyuVydh3sgsJqjC)
+123
