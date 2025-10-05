@@ -162,3 +162,8 @@ echo "hello2" > ~/folder/file2.txt
 
 Выполнение:
 1. Открываем новый терминал из под root и создаем файл `~/file2.txt` с текстом "hello"
+```
+cd /home/user1/ 
+echo "hello2" > file2.txt 
+ls -l file2.txt
+```
