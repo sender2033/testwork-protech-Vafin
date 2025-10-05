@@ -218,7 +218,7 @@ cat ~/file2.txt
 - Создайте файл правил 01_usermanagement (с использованием `visudo`).
 - Добавьте пользователю john права использования `sudo` без ввода пароля для команд `groupadd` и `usermod`.
 Выполнение: 
-1. Создаем пользователей  john, user1, user2 и 
+1. Создаем пользователей  john, user1, user2 и задаем им пароли.
 ```
 sudo useradd -m -s /bin/bash john
 sudo useradd -m -s /bin/bash user1
