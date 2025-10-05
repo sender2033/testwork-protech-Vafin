@@ -19,6 +19,5 @@
 - Удалите созданный каталог /tmp/block6/task/1/2/3/ вместе с содержимым.
 
 Выполнение:
-1. Создаем директорию командой `mkdir -p /tmp/block6/task/1/2/3 && mv /tmp/search.list /tmp/search-size.txt /tmp/block6/task/1/2/3/
-` 
+1. Создаем директорию командой `mkdir -p /tmp/block6/task/1/2/3 && mv /tmp/search.list /tmp/search-size.txt /tmp/block6/task/1/2/3/`, потом перемещаем файлы, созданные в предыдущем задании в эту директорию ``  
 `
