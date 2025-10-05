@@ -21,5 +21,6 @@
 Выполнение:
 1. Создаем директорию командой `mkdir -p /tmp/block6/task/1/2/3 && mv /tmp/search.list /tmp/search-size.txt /tmp/block6/task/1/2/3/`, потом перемещаем файлы, созданные в предыдущем задании в эту директорию.   `mkdir -p /tmp/block6/task/1/2/3` - эта часть команды отвечает за создание директории, а эта `mv /tmp/search.list /tmp/search-size.txt /tmp/block6/task/1/2/3/` - за перенос файлов. Две команды были объединены `&&`
 2. Создаем жесткую символьную ссылку командой `ln /tmp/block6/task/1/2/3/search-size.txt /tmp/block6/task/1/2/3/search-size-hard.txt`, а также мягкую символьную ссылку командой `ln -s /tmp/block6/task/1/2/3/search-size.txt /tmp/block6/task/1/2/3/search-size-soft.txt`
-3. Выводим содержимое всех каталогов командой `ls -li /tmp/block6/task/1/2/3/`.  Результат вывода: 
+3. Выводим содержимое всех каталогов командой `ls -li /tmp/block6/task/1/2/3/`.  Результат вывода: ![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Pasted%20image%2020251005150533.png?raw=true)
+4. Удаляем созданный каталог с помощью команды `rm -rf /tmp/block6/task/1/2/3/` 
 
