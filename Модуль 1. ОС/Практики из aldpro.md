@@ -12,7 +12,7 @@
 3. Чтобы выяснить размер списка была использована команда `ls -sh /tmp/search.list`, где `ls` - выводит список, флаг `-sh` - комбинированный флаг (-s, -h), который показывает размер файла в удобном для понимания формате. В данном случае ![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251005143127.png?raw=true) был такой вывод. Чтобы сохранить вывод в файл к команде `ls -sh /tmp/search.list` было добавлено ` > /tmp/search-size.txt` и команда стала выглядеть так `ls -sh /tmp/search.list > /tmp/search-size.txt`
 4. Чтобы узнать количество строк в файле *Search-size.txt* и записать результат в файл */tmp/search-size.txt* сохранив предыдущие данные используется команда `wc -l /tmp/search.list >> /tmp/search-size.txt` , где  `wc -l` - выводит количество строк, а `>> /tmp/search-size.txt` - дополняет файл этой информацией. ![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251005145112.png?raw=true) Результат записи.
 
-Задание 2. 
+## Задание 2. 
 - Создайте одной командой директорию /tmp/block6/task/1/2/3 и переместите в нее так же одной командой файлы /tmp/search.list и /tmp/search-size.txt.
 - Создайте жесткую и символическую ссылки на файл /tmp/block6/task/1/2/3/search-size.txt.
 - Выведите содержимое каталога /tmp/block6/task/1/2/3/ с получением айноды всех файлов.
@@ -29,7 +29,7 @@
 
 
 # Практическая работа 9. # Работа с правами доступа, ACL
-Задание 1.
+## Задание 1.
 - Создайте пользователя user1, назначьте для него пароль и выполните вход (команды `useradd`, `passwd`, `login`).
 - Создайте файл в домашней директории пользователя `~/file.txt` с контентом «hello». Владельцем файла должен быть user1:user1, права доступа по умолчанию 644 (u=rw,g=r,o=r).
 - Назначьте на файл права доступа 000 (u=,g=,o=) и проверьте, что вы
@@ -79,6 +79,6 @@ echo "test" >> file.txt
 ```
 ![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251005174351.png?raw=true)
 
-
+## 
 
    
