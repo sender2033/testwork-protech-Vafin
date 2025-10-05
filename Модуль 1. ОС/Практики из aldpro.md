@@ -121,3 +121,4 @@ mkdir ~/folder
 echo "hello" > ~/folder/file.txt
 ls -l ~/folder/
 ```
+![Image]()
