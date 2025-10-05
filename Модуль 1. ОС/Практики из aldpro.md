@@ -91,4 +91,4 @@ which cat
 cp /usr/bin/cat ~/
 ls -l ~/cat
 ```
-   
+   ![Image]()
