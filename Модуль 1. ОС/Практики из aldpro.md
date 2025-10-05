@@ -231,5 +231,5 @@ sudo passwd user2
 2. Создаем файл правил `01_usermanagement` и даем доступ к sudo без использования пароля. 
 `sudo visudo -f /etc/sudoers.d/01_usermanagement`
 и добавляем в этот файл следующий текст: 
-`john ALL=(ALL) NOPASSWD:
-/usr/sbin/groupadd, /usr/sbin/usermod`
+`john ALL=(ALL) NOPASSWD:`
+`/usr/sbin/groupadd, /usr/sbin/usermod`
