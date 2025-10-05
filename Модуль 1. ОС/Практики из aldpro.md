@@ -77,8 +77,8 @@ ls -l file.txt
 cat file.txt
 echo "test" >> file.txt
 ```
- 
-  7
+
+![Image]()
 
 
 
