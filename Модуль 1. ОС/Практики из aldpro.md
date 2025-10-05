@@ -42,6 +42,6 @@
 
 1. Создаем пользователя user1 и задаем пароль  
 ```
-sudo useradd user1
+sudo useradd -m user1
 sudo passwd user1
 ```
