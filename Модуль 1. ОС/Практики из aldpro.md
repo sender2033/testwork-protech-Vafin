@@ -46,6 +46,7 @@ sudo useradd -m user1
 sudo passwd user1
 ```
 Входим в систему из под учетки user1 `su - user1`
-2. Создаем файл *file.txt* с текстом 'hello'
+2. Создаем файл *file.txt* с текстом 'hello' с помощью команды `echo "hello" > file.txt` и проверяем владельца и права доступа `ls -l file.txt` ![Image]()
+3. 
 
 3. 
