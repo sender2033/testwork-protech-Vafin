@@ -71,7 +71,10 @@ echo "world" >> file.txt
   
   6. Установка прав 006 и проверка 
 ```
-
+chmod 006 file.txt
+ls -l file.txt
+cat file.txt
+echo "test" >> file.txt
 ```
  
   7
