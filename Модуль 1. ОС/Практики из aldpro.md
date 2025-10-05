@@ -219,3 +219,11 @@ cat ~/file2.txt
 - Добавьте пользователю john права использования `sudo` без ввода пароля для команд `groupadd` и `usermod`.
 Выполнение: 
 1. Создаем пользователей  john, user1, user2.
+```
+sudo useradd -m -s /bin/bash john
+sudo useradd -m -s /bin/bash user1
+sudo useradd -m -s /bin/bash user2
+sudo passwd user1
+sudo passwd user2
+```
+![Image]()
