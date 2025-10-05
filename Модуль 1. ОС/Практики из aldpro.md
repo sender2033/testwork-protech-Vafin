@@ -261,4 +261,4 @@ sudo usermod -aG g_admin user2
 
 Выполнение: 
 1. `/etc/pam.d/common-auth` открываем этот файл и добавляем в него строку `auth [success=ignore default=die] pam_tally2.so per_user deny=3 unlock_time=300` 
-`
+результат:
