@@ -167,3 +167,4 @@ cd /home/user1/
 echo "hello2" > file2.txt 
 ls -l file2.txt
 ```
+![Image]()
