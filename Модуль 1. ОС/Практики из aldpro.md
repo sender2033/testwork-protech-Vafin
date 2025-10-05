@@ -167,4 +167,6 @@ cd /home/user1/
 echo "hello2" > file2.txt 
 ls -l file2.txt
 ```
-![Image]()
+![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251005184630.png?raw=true)
+По умолчанию права доступа у этого файла 644.
+2. Назначаем права доступа на файл 007 
