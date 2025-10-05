@@ -260,4 +260,5 @@ sudo usermod -aG g_admin user2
 - Проверьте функциональность. Для этого введите неправильные учетные данные и убедитесь, что учетная запись блокируется.
 
 Выполнение: 
-1. 
+1. `/etc/pam.d/common-auth` открываем этот файл и добавляем в него строку `auth [success=ignore default=die] pam_tally2.so per_user deny=3 unlock_time=300` 
+`
