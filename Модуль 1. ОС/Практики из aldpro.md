@@ -287,7 +287,7 @@ sudo usermod -aG g_admin user2
 gzip -k file2.txt
 gzip -k archive.tar
 ```
-Далее будем сжимать с помощью 
+Далее будем сжимать с помощью таких утилит как: ``,``,``,``,``
 
    
 
