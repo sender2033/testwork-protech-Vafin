@@ -267,3 +267,11 @@ sudo usermod -aG g_admin user2
 
 # Практическая работа 14. Архивирование и сжатие информации
 ## Задание 1. 
+1. Создайте 3 текстовых файла:
+    - `file1.txt` - Используя случайные символы `/dev/random`
+    - `file2.txt` - Копируя один и тот же текст 10 раз:
+        «Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.»
+    - `file3.txt` - Используя бинарный файл в качестве текстового
+2. Заархивируйте файлы, используя команду `tar`.
+
+Вы
