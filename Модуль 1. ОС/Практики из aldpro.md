@@ -326,4 +326,5 @@ cpio -i --to-stdout < archive.cpio | grep -a "Lorem"
 
 ## Задание 4.
 Разархивируйте только файл `file2.txt`.
-Выполнение;
+Выполнение:
+1. 
