@@ -328,3 +328,5 @@ cpio -i --to-stdout < archive.cpio | grep -a "Lorem"
 Разархивируйте только файл `file2.txt`.
 Выполнение:
 1. Разархивирование выполним с помощью команды `tar -xvf archive.tar file2.txt`
+
+# Практическая работа 18
