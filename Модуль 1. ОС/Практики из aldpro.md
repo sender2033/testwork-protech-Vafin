@@ -287,7 +287,20 @@ sudo usermod -aG g_admin user2
 gzip -k file2.txt
 gzip -k archive.tar
 ```
-Далее будем сжимать с помощью таких утилит как: ``,``,``,``,``
+Далее будем сжимать с помощью таких утилит как: `bzip2`,`xz`и `cpio`. Список команд:
+```
+#bzip2
+localadmin@astra:~$ bzip2 -k file2.txt
+localadmin@astra:~$ bzip2 -k archive.tar
+
+#xz
+localadmin@astra:~$ xz -k file2.txt
+localadmin@astra:~$ xz -k archive.tar
+
+#cpio
+localadmin@astra:~$ ls file2.txt | cpio -o > file2.txt.cpio
+localadmin@astra:~$ ls archive.tar | cpio -o > archive.cpio
+```
 
    
 
