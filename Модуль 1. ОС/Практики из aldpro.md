@@ -336,3 +336,4 @@ cpio -i --to-stdout < archive.cpio | grep -a "Lorem"
 
 Выполнение: 
 1.  С помощью команды  `echo 'SUBSYSTEM=="tty", KERNEL=="tty8", GROUP="root"' | sudo tee /etc/rules.d/10-tty8.rules` создадим файл в директории `/etc/udev/rules.d/10-tty8.rules`, в котором будет находится правило `SUBSYSTEM=="tty", KERNEL=="tty8", GROUP="root"`, которое устанавливает, что после каждого создания устройства `/dev/tty8`, его группа будет меняться на root.  Однако, после выполнения этой команды система выдала ошибку о том, что файл не найден. Причина этого в том, что в Debian директория `/etc/rules.d` не существует, решением было заменить эту директорию на `/etc/udev/rules.d/`.
+   Проверяем результат с помощью команд `udevadm trigger /sys/devices/virtual/tty/tty8` и `ls -l /dev/tty8`, в результате чего наблюдаем успешное выполнение правила 
