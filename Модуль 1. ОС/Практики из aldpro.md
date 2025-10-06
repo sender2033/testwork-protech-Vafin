@@ -346,4 +346,5 @@ cpio -i --to-stdout < archive.cpio | grep -a "Lorem"
 2. Выведите все атрибуты устройства eth0.
 
 Выполнение:
-1. Чтобы определить путь к eth0 посмотрим какие ссылки есть в `/sys/net/`, воспользовавшись командой `ls -l /sys/class/net/`
+1. Чтобы определить путь к eth0 посмотрим какие ссылки есть в `/sys/net/`, воспользовавшись командой `ls -l /sys/class/net/`, но как выяснилось, на моем устройстве нет eth0, вместо него используется ens33.
+![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251006120034.png?raw=true) 
