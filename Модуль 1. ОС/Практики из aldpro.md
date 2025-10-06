@@ -557,4 +557,4 @@ and the attributes from one single parent device.
 3. Отмените свои изменения.
 
 Выполнение:
-1. 
+1. Для выгрузки модуля используем команду `modprobe -r intel_rapl_msr`
