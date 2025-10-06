@@ -340,3 +340,10 @@ cpio -i --to-stdout < archive.cpio | grep -a "Lorem"
 Проверяем результат с помощью команд `udevadm trigger /sys/devices/virtual/tty/tty8` и `ls -l /dev/tty8`, в результате чего наблюдаем успешное выполнение правила 
 ![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251006115327.png?raw=true)
  После этого удаляем правило командой `rm /etc/udev/rules.d/10-tty8.rules` и возвращаем tty8 в группу tty `chown :tty /dev/tty8` 
+
+## Задание 2.
+1. Определите путь к сетевому устройству eth0 в каталоге /sys.
+2. Выведите все атрибуты устройства eth0.
+
+Выполнение:
+1. 
