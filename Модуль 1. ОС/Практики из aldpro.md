@@ -558,3 +558,4 @@ and the attributes from one single parent device.
 
 Выполнение:
 1. Для выгрузки модуля используем команду `modprobe -r intel_rapl_msr`
+2. Создаем файл для черного списка командой `sudo touch /etc/modprobe.d/blacklist-rapl.conf` и добавляем в него правило, запрещающее загрузку модуля при старте системы `echo "blacklist intel_rapl_msr" | sudo tee /etc/modprobe.d/blacklist-rapl.conf`
