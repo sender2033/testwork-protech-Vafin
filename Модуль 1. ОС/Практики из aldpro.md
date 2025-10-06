@@ -307,4 +307,17 @@ ls archive.tar | cpio -o > archive.cpio
 ## Задание 3. 
 Не разжимая полученные сжатые файлы, поищите (zgrep) слово Lorem.
 Выполнение: 
-1. 
+1. Для выполнения этого задания воспользуемся все теми же утилитами `gzip`, `bzip2`, `xz`, `cpio`. Сначала будем искать в `file2.txt`, а потом уже в архивах. Это будет выглядеть так: 
+```
+#Поиск в файлах
+zgrep "Lorem" file2.txt.gz
+bzgrep "Lorem" file2.txt.bz2
+xzgrep "Lorem" file2.txt.xz
+cpio -i --to-stdout < file2.txt.cpio | grep "Lorem"
+
+#Поиск в архивах
+zgrep "Lorem" -a archive.tar.gz
+bzgrep "Lorem" -a archive.tar.bz2
+xzgrep "Lorem" -a archive.tar.xz
+cpio -i --to-stdout < archive.cpio | grep -a "Lorem"
+```
