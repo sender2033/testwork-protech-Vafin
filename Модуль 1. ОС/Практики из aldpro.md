@@ -551,4 +551,4 @@ and the attributes from one single parent device.
 
 ~
 
-## Задание 
+## Задание 3.
