@@ -275,4 +275,4 @@ sudo usermod -aG g_admin user2
 2. Заархивируйте файлы, используя команду `tar`.
 
 Выполнение: 
-1. Создадим `file1.txt` со случайным набором символов с помощью команды `dd if=/dev/random of=file1.txt bs=1024 count=1`. 
+1. Создадим `file1.txt` со случайным набором символов с помощью команды `dd if=/dev/random of=file1.txt bs=1024 count=1`. Создадим ``
