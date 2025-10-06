@@ -550,3 +550,5 @@ and the attributes from one single parent device.
     ATTRS{waiting_for_supplier}=="0"
 
 ~
+
+## Задание 
