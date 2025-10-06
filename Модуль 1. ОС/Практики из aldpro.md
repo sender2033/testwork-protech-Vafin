@@ -335,4 +335,4 @@ cpio -i --to-stdout < archive.cpio | grep -a "Lorem"
 2. После того как группа будет изменена, отмените свои изменения.
 
 Выполнение: 
-1.  С помощью команды  `echo 'SUBSYSTEM=="tty", KERNEL=="tty8", GROUP="root"' | sudo tee /etc/rules.d/10-tty8.rules` создадим файл в директории `/etc/udev/rules.d/10-tty8.rules`, в котором будет находится правило `SUBSYSTEM=="tty", KERNEL=="tty8", GROUP="root"`, которое
+1.  С помощью команды  `echo 'SUBSYSTEM=="tty", KERNEL=="tty8", GROUP="root"' | sudo tee /etc/rules.d/10-tty8.rules` создадим файл в директории `/etc/udev/rules.d/10-tty8.rules`, в котором будет находится правило `SUBSYSTEM=="tty", KERNEL=="tty8", GROUP="root"`, которое устанавливает, что после каждого создания устройства `/dev/tty8`, его группа будет меняться на root
