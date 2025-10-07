@@ -573,3 +573,10 @@ and the attributes from one single parent device.
 - Выведите с использованием команды netstat список всех открытых прослушивающих (listening) портов (т.е. портов, на которых приложения ожидают входящие соединения).
 Выполнение:
 1. Чтобы посмотреть сетевые устройства и их состояние на машине воспользуемся командой `ip link show`
+>debian@debian:~$ ip link show
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether 00:0c:29:d4:48:07 brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+
