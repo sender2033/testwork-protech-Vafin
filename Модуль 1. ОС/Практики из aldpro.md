@@ -596,5 +596,5 @@ and the attributes from one single parent device.
 domain localdomain;
 search localdomain;
 nameserver 192.168.209.2;
-2. Добавлю в этот список DNS 1.1.1.1 `echo "nameserver 1.1.1.1" | sudo tee /etc/resolv.conf`. Проверка
+	1. Добавлю в этот список DNS 1.1.1.1 `echo "nameserver 1.1.1.1" | sudo tee /etc/resolv.conf`. Проверка
 
