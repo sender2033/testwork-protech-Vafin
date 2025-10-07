@@ -580,5 +580,5 @@ and the attributes from one single parent device.
     link/ether 00:0c:29:d4:48:07 brd ff:ff:ff:ff:ff:ff
     altname enp2s1
     
-	\- Результат вывода команды
-    
+    Результат вывода команды
+1. Чтобы вывести только ipv4 адрес каждого устройства воспользуемся командой `ip -br -4 addr show`. Я воспользовался флагом `-br` чтобы вывод был более читабелен.
