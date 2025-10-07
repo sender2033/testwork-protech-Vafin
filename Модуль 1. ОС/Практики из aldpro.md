@@ -573,17 +573,10 @@ and the attributes from one single parent device.
 - Выведите с использованием команды netstat список всех открытых прослушивающих (listening) портов (т.е. портов, на которых приложения ожидают входящие соединения).
 Выполнение:
 1. Чтобы посмотреть сетевые устройства и их состояние на машине воспользуемся командой `ip link show`
->debian@debian:~$ ip link show
-1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
-    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
-    link/ether 00:0c:29:d4:48:07 brd ff:ff:ff:ff:ff:ff
-    altname enp2s1
-    
+![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251007192942.png?raw=true)
     Результат вывода команды
 2. Чтобы вывести только ipv4 адрес каждого устройства воспользуемся командой `ip -br -4 addr show`. Я воспользовался флагом `-br` чтобы вывод был более читабелен.
-
-
+![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251007192933.png?raw=true)
 	Результат вывода команды
 3. Для выполнения 3 пункта воспользуюсь командой `sudo arp -i ens33`. В виду отсутствия интерфейса *eth0* буду выводить интерфейс *ens33*. В моём случае, перед тем как выполнить эту команду был установлен пакет *net-tools*, в котором находится утилита `arp`
 ![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251007192917.png?raw=true)
