@@ -49,7 +49,7 @@ sudo passwd user1
 2. Создаем файл *file.txt* с текстом 'hello' с помощью команды `echo "hello" > file.txt` и проверяем владельца и права доступа `ls -l file.txt` ![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251005165910.png?raw=true)
 3. Изменяем права доступа на файл с помощью команды `chmod 000 file.txt` и проверяем права доступа ![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251005171047.png?raw=true)
    Попытаемся прочитать файл с помощью команды `cat file.txt` , а также записать слово "World" в этот же файл с помощью команды `echo "world" >> file.txt`
-![Image|524x147](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251005171539.png?raw=true)
+![Image|613x173](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251005171539.png?raw=true)
 
 
 4. Теперь установим права 400 и проверим их работу ```
