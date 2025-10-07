@@ -593,6 +593,7 @@ and the attributes from one single parent device.
 - Проверьте корректность работы новых DNS-настроек путем разрешения имен хостов в IP-адреса.
 Выполнение:
 1. Так как у меня нет графической оболочки, я пойду немного другим путем. Чтобы посмотреть текущие DNS-настройки я воспользуюсь командой `cat /etc/resolv.conf`. В результате получил следующий вывод: 
-domain localdomain
-search localdomain
-nameserver 192.168.209.2
+domain localdomain;
+search localdomain;
+nameserver 192.168.209.2;
+
