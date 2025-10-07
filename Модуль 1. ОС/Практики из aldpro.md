@@ -584,4 +584,5 @@ and the attributes from one single parent device.
 4. Трассировка маршрута будет выполнятся с помощью команды `sudo traceroute ya.ru -q 1 -I`
 ![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251007193557.png?raw=true)
 5. Вывод портов, которые в данный момент будут прослушиваться будет осуществлен с помощью команды `netstat -tuln`
+
 ## Задание 2.
