@@ -579,4 +579,6 @@ and the attributes from one single parent device.
 2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
     link/ether 00:0c:29:d4:48:07 brd ff:ff:ff:ff:ff:ff
     altname enp2s1
-
+    
+	\- Результат вывода команды
+    
