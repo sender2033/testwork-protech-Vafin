@@ -596,4 +596,5 @@ and the attributes from one single parent device.
 domain localdomain;
 search localdomain;
 nameserver 192.168.209.2;
+2. Добавлю в этот 
 
