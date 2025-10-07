@@ -582,16 +582,9 @@ and the attributes from one single parent device.
     
     Результат вывода команды
 2. Чтобы вывести только ipv4 адрес каждого устройства воспользуемся командой `ip -br -4 addr show`. Я воспользовался флагом `-br` чтобы вывод был более читабелен.
-> debian@debian:~$ ip -br -4 addr show
-lo               UNKNOWN        127.0.0.1/8
-ens33            UP             192.168.209.128/24
+
 
 	Результат вывода команды
 3. Для выполнения 3 пункта воспользуюсь командой `sudo arp -i ens33`. В виду отсутствия интерфейса *eth0* буду выводить интерфейс *ens33*. В моём случае, перед тем как выполнить эту команду был установлен пакет *net-tools*, в котором находится утилита `arp`
->debian@debian:~$ sudo arp -i ens33
-Address                  HWtype  HWaddress           Flags Mask            Iface
-192.168.209.2            ether   00:50:56:f4:ff:03   C                     ens33
-192.168.209.1            ether   00:50:56:c0:00:08   C                     ens33
-192.168.209.254          ether   00:50:56:f7:1d:b2   C                     ens33
-
+![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.%20%D0%9E%D0%A1/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/Pasted%20image%2020251007192917.png?raw=true)
 	Результат вывода команды
