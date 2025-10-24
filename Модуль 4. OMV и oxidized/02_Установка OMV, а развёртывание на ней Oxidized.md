@@ -1,16 +1,16 @@
 # Установка OMV в Pnet
 Делаю тоже самое, что и во время второго модуля, для установки debian.
 Начало установки:
-![[Без названия-24.10.2025-20_40.png]]
+![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-24.10.2025-20_40.png?raw=true)
 
 ---
 
 Результат установки
-![[Без названия-24.10.2025-20_53.png]]
+![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-24.10.2025-20_53.png?raw=true)
 
 ---
 Графическая оболочка
-![[Без названия-24.10.2025-21_12.png]]
+![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-24.10.2025-21_12.png?raw=true)
 
 --- 
 ## Установка oxidized
@@ -24,7 +24,7 @@
 - Запуск oxidized
 
 Файл `docker-compose.yml`
-![[Без названия-24.10.2025-21_37.png]]
+![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-24.10.2025-21_37.png?raw=true)
 
 ---
 Файл oxidized `/srv/oxidized/config/config`
