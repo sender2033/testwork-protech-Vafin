@@ -28,12 +28,12 @@
 
 ---
 Файл oxidized `/srv/oxidized/config/config`
-![[Без названия-24.10.2025-22_03.png]]
+![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-24.10.2025-22_03.png?raw=true)
 
 ---
 Файл `router.db` без которого все ломается
-![[Без названия-24.10.2025-22_05.png]]
+![Image|700x792](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-24.10.2025-22_05.png?raw=true)
 
 ---
 Результат работы
-![[Без названия-24.10.2025-22_15.png]]
+![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-24.10.2025-22_15.png?raw=true)
