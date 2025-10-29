@@ -36,4 +36,4 @@
 
 ---
 Результат работы
-![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-24.10.2025-22_15.png?raw=true)
+![Image|700x394](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-24.10.2025-22_15.png?raw=true)
