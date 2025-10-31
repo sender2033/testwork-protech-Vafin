@@ -41,5 +41,7 @@
 ![Image|700x595](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Image/02_%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20OMV,%20%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D1%91%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D0%BD%D0%B5%D0%B9%20Oxidized-29.10.2025-22_14.png?raw=true)
 
 
- ![[02_Установка OMV, а развёртывание на ней Oxidized-31.10.2025-15_21.png]]
- ![[02_Установка OMV, а развёртывание на ней Oxidized-31.10.2025-15_21-1.png]]
+ ![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Image/02_%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20OMV,%20%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D1%91%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D0%BD%D0%B5%D0%B9%20Oxidized-31.10.2025-15_21.png?raw=true)
+ 
+ ![Image](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Image/02_%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20OMV,%20%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D1%91%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D0%BD%D0%B5%D0%B9%20Oxidized-31.10.2025-15_21-1.png?raw=true)
+ 
