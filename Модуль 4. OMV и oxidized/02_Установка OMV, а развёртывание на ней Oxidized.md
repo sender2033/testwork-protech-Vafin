@@ -32,6 +32,8 @@
 
 ---
 Файл `router.db` без которого все ломается
+![[02_Установка OMV, а развёртывание на ней Oxidized-31.10.2025-15_17.png]]
+
 ![Image|700x792](https://github.com/sender2033/testwork-protech-Vafin/blob/main/Image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-24.10.2025-22_05.png?raw=true)
 
 ---
